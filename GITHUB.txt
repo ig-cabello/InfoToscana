@@ -1,0 +1,16 @@
+1. git init    ---- Inicializa el repositorio.
+2. git status      ----- Muestra el estado
+3. git add [name archivo]      ----- Asigna que vamos a subir un o unos archivos en concreto. El add . agrega todo
+4. git commit -m "Se agrega el Proyecto"      ----Le decimos que vamos a subir los cambios al repositorio y le damos ese nombre.
+------SI PIDE INICIAR SESION-------
+4.1 git config --global user.email ig.cabello@duocuc.cl          ---- nombre del correo
+4.2 git config --global user.name ig-cabello           ----Nombre del usuario. Ahora el commit funciona
+----------
+5. git branch -M main       ------ Indicamos que vamos a subir los cambios a la rama principal
+6. git remote add origin https://github.com/ig-cabello/InfoToscana.git           ----Inidicamos direccion donde se va alojar
+7. git push -u origin main          ----- Y enviamos los cambios al repositorio finalmente
+-------SI SALE UN ERROR DE PERMISOS DENEGADOS-------
+7.1 Escrbir credenciales en el buscador
+7.2 Buscamos el link de github y le damos a quitar al usuario que salga. Ahora si funcion ael push
+-------------
+8. git log   --------Esto muestra los cambios al control de versiones o se ven los cambios subidos.
